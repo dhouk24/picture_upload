@@ -1,0 +1,9 @@
+<ol>
+	<% @albums.each do |album| %>
+	<li><a href="/albums/<%=album.id%>"><%= album.title %></a></li>
+	<% end %>
+</ol>
+
+<% if current_user %>
+<p><a href="/albums/new">Create an Album</a><p>
+<%end%>
