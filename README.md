@@ -1,9 +1,5 @@
-This is the standard Dev Bootcamp Sinatra file with some extras. Those include:
+This project was our first introduction into carrierwave and using that to upload photos.  Some key takeaways for me:
+  - practice with Uploader to allow users to add their photos and access them
+  - modifying our config environment to store photos
 
-  - a User model pre-populated with relevant Bcrypt methods 
-  - a rake db:yolo which creates, migrates, and seeds your database
-  - a rake db:fuckit which drops, creates, migrates and seeds your database
-  - a rake db:console which puts you into a psql session
-  - a rake console which puts you into an irb session loaded with access to the models
-  - faker gem already required
-  - carrierwave gem/environment present but commented out
+I didn't expand too far with this project, but it was a great learning experience because it gave us the ability to use photo upload on later projects.
